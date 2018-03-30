@@ -10,7 +10,7 @@ A part of my graduation project that simulates the radar using hc-sr04 ultrasoni
 
 ## Requirements
 * python 2.7
-* pygame library
+* pygame library for drawing the radar screen
 
 ## Preview Video
 Watch Video on [youtube](https://youtu.be/kzpTUnOJpF8)
