@@ -3,7 +3,7 @@
 ## Description
 A part of my graduation project that simulates the radar using hc-sr04 ultrasonic sensor on a servo motor rotating from 0 degree to 180 degree
 
-## Components
+## Hardware Components
 * Raspberry Pi 3 Model B
 * HC-SR04 sensor
 * Servo Motor
