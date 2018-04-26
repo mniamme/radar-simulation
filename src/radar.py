@@ -109,7 +109,7 @@ def draw(angle, distance):
     # 135 degree line
     pygame.draw.line(radarDisplay, colors.green, (700, 780), (1195, 285), 1)
 
-    # draw stastics board
+    # draw statistics board
     pygame.draw.rect(radarDisplay, colors.blue, [20, 20, 270, 100], 2)
 
     # write the 0 degree
