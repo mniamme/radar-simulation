@@ -161,8 +161,7 @@ def draw(angle, distance):
         # draw the line indicating the target
         pygame.draw.line(radarDisplay, targets[angle].color, (700 - int(f), 780 - int(e)), (700 - int(d), 780 - int(c)), 3)
         
-        # fading
-
+        # fading effect
         diffTime = time.time() - targets[angle].time
         
         if diffTime >= 0.0 and diffTime <= 0.5:
@@ -205,6 +204,8 @@ try:
 
         for angle in range(180, 0, -1):
             distance = ultrasonicRead()
+            
+            # restricted the distance to 20 cm for testing because of the space limit around the radar
             if distance != -1 and distance < 20:
                 targets[angle] = Target(angle)
             
