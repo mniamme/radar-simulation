@@ -8,7 +8,10 @@ A part of my graduation project that simulates the radar using hc-sr04 ultrasoni
 * HC-SR04 sensor
 * Servo Motor
 
-## Requirements
+## Circuit Diagram For Connecting Ultrasonic Sensor
+![Circuit Diagram](/diagram.png)
+
+## Software Requirements
 * python 2.7
 * pygame library for drawing the radar screen
 
