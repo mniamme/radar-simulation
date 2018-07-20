@@ -9,7 +9,7 @@ A part of my graduation project that simulates the radar using hc-sr04 ultrasoni
 * Servo Motor
 
 ## Circuit Diagram For Connecting Ultrasonic Sensor
-![Circuit Diagram](/diagram.png)
+![Circuit Diagram](/circuit_diagram.png)
 
 ## Software Requirements
 * python 2.7
