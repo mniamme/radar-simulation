@@ -4,7 +4,6 @@ import math
 import time
 import colors
 import sys
-import cv2
 from target import *
 from display import draw
 from ultrasonicsensor import ultrasonicRead
